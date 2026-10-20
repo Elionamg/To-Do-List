@@ -1,0 +1,30 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-do List</title>
+</head>
+<body>
+    <h1>To-do List</h1>
+
+    <p id="date"></p>
+
+    <div id="fond-bar">
+        <div id="task-bar"></div>
+    </div>
+
+    <form id="task-form">
+        <label for="task">Tâche</label>
+        <input type="text" id="task" name="tache" placeholder="Entrez une tâche" required>
+
+        <button id="btn" type="submit">Validez</button>
+    </form>
+
+    <ul id="container"></ul>
+
+    <button id="supp-all" type="button">Tout supprimer</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
