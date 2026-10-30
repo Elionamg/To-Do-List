@@ -26,7 +26,7 @@ function bouton(nom, nouvelleTache){
     const btn_sup = document.createElement("button"); 
 
     btn_sup.type = "button";
-    btn_sup.textContent = "Supprimer";
+    btn_sup.textContent = "X";
 
     btn_sup.addEventListener("click",(event)=>{
         event.stopPropagation() //empêche l'event actuel d'aller plus loin et donc d'engendrer un autre event
